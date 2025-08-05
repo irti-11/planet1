@@ -16,7 +16,7 @@ body{
   height: 100%;
   width: 100%; 
   overflow: hidden;
-  background-image: url("assets2/images/11.jpeg");
+  background-image: url("./assets2/images/11.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,7 +264,7 @@ p{
           
           margin: auto;
           margin-top: 1rem;
-          background-image: url("assets2/images/1.jpeg");
+          background-image: url("./assets2/images/1.jpeg");
           background-position: center;
           background-repeat: no-repeat;
           background-size:cover;
@@ -295,7 +295,7 @@ p{
     
           margin: auto;
           margin-top: 1rem;
-          background-image: url("assets2/images/2.jpeg");
+          background-image: url("./assets2/images/2.jpeg");
           background-position: center;
           background-repeat: no-repeat;
           background-size:cover;
@@ -319,7 +319,7 @@ p{
           
           margin: auto;
           margin-top: 1rem;
-          background-image: url("assets2/images/3.jpeg");
+          background-image: url("./assets2/images/3.jpeg");
           background-position: center;
           background-repeat: no-repeat;
           background-size:cover;
@@ -521,4 +521,5 @@ p{
    /* padding: 0.37rem; */
 }
 }
+
 
