@@ -1,0 +1,524 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body{
+  height: 100vh;
+
+}
+
+.container{
+  height: 100%;
+  width: 100%; 
+  overflow: hidden;
+  background-image: url("assets2/images/11.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+ padding: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+  .nav{
+    width: 100%;
+    
+  }
+  li{
+    display: none;
+
+  }
+
+  .box{
+    width: 1vw;
+    
+  }
+  h1{
+    font-size: 1.67rem;
+     translate: 2%;
+    margin-right: 11rem;
+  }
+
+  .menu{
+     padding-right: 2vw;
+     width: 66px;
+     cursor: pointer;
+  }
+
+ .container{
+        
+        /* min-width: 100%; */
+        width: 100%;
+      
+  }
+
+
+
+}
+
+
+@media screen and (max-width:320px) {
+   .container{
+        
+        min-width: 100%; 
+      
+  } 
+
+  .container2{
+    padding-left: 1.45rem;
+  }
+  
+}
+
+ul{
+  align-items: center;
+}
+/* @media screen and (max-width:600px) {
+  h1{
+    font-size: 1.5rem;
+    padding-left: 0px;
+   
+  }
+
+  
+} */
+
+ a{
+  color: black;
+  text-decoration: none;
+  font-family: 'roboto',sans-serif;
+  font-size: 0.85rem;
+   
+}
+
+
+
+li{
+  list-style: none;
+ 
+}
+
+
+
+ul{
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  
+}
+
+
+.box{
+  width: 45%;
+  padding-bottom: 0.2rem;
+  cursor: pointer;
+
+}
+
+h1{
+  translate: 45%;
+  font-size: 1.5rem;
+  font-family: 'jost',sans-serif;
+}
+
+.first-para{
+  text-align: center;
+  font-family: 'Jost',sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+   letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  line-height: 5.5rem;
+  margin-top: 7rem;
+  color: #2C541D;
+  overflow: hidden;
+  
+}
+
+.second-para{
+  text-align: center;
+  font-family: Jost, sans-serif;
+  font-size: 40px ;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  line-height:52px;
+  font-weight: 300;
+  overflow: hidden;
+
+  
+}
+
+a:active{
+ color: green;
+}
+
+.first-para::selection{
+  background-color: #71A548;
+  color: black;
+}
+
+.second-para::selection{
+  background-color: #71A548;
+  color: black;
+}
+
+
+div button{
+  background-color: #71A548;
+  color: white;
+  font-weight: 500;
+  border: none;
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius: 4rem;
+  text-align: center;
+  
+}
+
+button:hover{
+  background-color: #2C541D; 
+  cursor: pointer;
+}
+
+
+
+ .container2{
+      height: 88%;
+     
+} 
+
+
+.sub-container2{
+          height: 70%;
+          width: 100%;
+          /* border: 2px solid black; */
+          margin-top: 3rem;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+           justify-content: center; 
+          
+ 
+           
+}
+
+
+.card-WebDesign{
+
+          margin: 3.2rem 2rem;
+          text-align: center;
+          height:58vh ;
+          width: 15.5rem;
+          
+          border-radius: 1rem;
+                
+}
+
+
+
+
+h4{
+  text-align: start;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  font-family: 'poppins',sans-serif;
+
+}
+
+h4::selection{
+  background-color: #71A548;
+  color: black;
+}
+
+p::selection{
+  background-color: #71A548;
+  color: black;
+}
+
+p{
+  text-align: start;
+  padding-left: 1rem;
+ line-height: 0.95rem;
+ font-size: 12px;
+ font-family: 'roboto',sans-serif;
+  margin-top: 0.3rem;
+}
+
+.sub-cardImageWeb{
+          height:40vh ;
+          width: 13.5rem;
+          
+          margin: auto;
+          margin-top: 1rem;
+          background-image: url("assets2/images/1.jpeg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover;
+          border-radius: 1rem;   
+                
+}
+
+ 
+
+
+
+
+.card-GraphicDesign{
+  margin: 3.2rem 2rem;
+          text-align: center;
+          height:58vh ;
+          width: 15.5rem;
+         
+          border-radius: 1rem;
+          
+        
+}
+
+
+.sub-cardImageGraphic{
+      height:40vh ;
+          width: 13.5rem;
+    
+          margin: auto;
+          margin-top: 1rem;
+          background-image: url("assets2/images/2.jpeg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover;
+           border-radius: 1rem;
+          cursor: pointer; 
+}
+
+.card-ContentCreation{
+     margin: 3.2rem 2rem;
+          text-align: center;
+          height:58vh;
+          width: 15.5rem;
+        
+          border-radius: 1rem;
+          
+}
+
+.sub-cardImageCreation{
+    height:40vh ;
+          width: 13.5rem;
+          
+          margin: auto;
+          margin-top: 1rem;
+          background-image: url("assets2/images/3.jpeg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover;
+           border-radius: 1rem;
+          cursor: pointer; 
+}
+
+
+@media screen and (max-width:552px) {
+  .sub-container2{
+    
+            flex-direction: column;
+        align-items: center;
+        margin: 32.2rem 0.2rem;
+        justify-content: center;
+        position: relative;
+        top: 10.56rem;
+        padding-right: 1em;
+        padding-left: 1.55em;
+        
+  }
+
+  .card-WebDesign{
+         width: 22.5rem;
+         height: 71vh;
+  }
+
+  .sub-cardImageWeb{
+    width: 20.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    text-align: start;
+    margin-inline: 0.7rem;
+    line-height: 1.35rem;
+  }
+
+  p{
+    font-size: 20px;
+    padding: 0.2rem;
+    text-align: start;
+    margin-inline: 0.7rem;
+    line-height: 1.35rem;
+  }
+
+  h4{
+    font-size: 2rem;
+  }
+
+  
+.card-GraphicDesign{
+      width: 22.5rem;
+         height: 71vh;
+}
+
+.sub-cardImageGraphic{
+  width: 20.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    text-align: start;
+    margin-inline: 0.7rem;
+    line-height: 1.35rem;
+}
+
+.card-ContentCreation{
+   width: 22.5rem;
+         height: 71vh;
+}
+
+.sub-cardImageCreation{
+     width: 20.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    text-align: start;
+    margin-inline: 0.7rem;
+    line-height: 1.35rem;
+
+}
+
+.first-para{
+  font-weight: 500;
+  font-size: 68px;
+}
+
+.second-para{
+  
+ padding-left: 0.2em;
+}
+
+/* .container{
+      min-width: 100%; 
+      width: 100%;
+}  */
+
+.container3{
+  margin-top: 35rem;
+}
+
+
+}
+
+
+
+.container3{
+      height: 100%;
+      position: relative;
+      bottom: 12%;
+}
+
+.sub-container3{
+   height: 50%;
+   width: 100%; 
+   display: flex;
+   flex-direction: row;
+   
+ 
+}
+
+.image-container3{
+     height: 88%;
+     width: 100%;
+     margin-top: 1em;
+     /* padding-right: 4.55em; */
+    
+}
+
+
+.right-side{
+       position: relative;
+       bottom: 4.45em;
+     width: 30vw;
+     margin: 10em;
+    height: 45%;
+    padding: 0.78em;
+    translate: 3.5%;
+}
+
+.about-para{
+  line-height: 1.45em;
+  text-align: start;
+  font-family: 'roboto',sans-serif;
+  font-size: 16.78px;
+}
+
+.about-heading{
+   padding-left: 0.6em;
+   font-family: 'poppins',sans-serif;
+   font-size: 35px;
+   padding: 0.37rem;
+}
+
+@media screen and (max-width:600px) {
+     .sub-container3{
+         flex-direction: column;
+     }
+
+      .image-container3{
+            height: 100%;
+     width: 100%;
+     margin-top: 1em;
+      padding-right: 1em;
+     padding-left: 2.55em; 
+
+   
+     }
+
+.right-side{
+    min-width:88vw ;  
+    min-height: 70%;
+    text-align: center;
+    border-style: hidden;
+    translate: -40% ;
+}
+
+.about-para{
+  text-align: start;
+  font-family: 'roboto',sans-serif;
+  height: 10%;
+}
+
+.image-container3{
+       height: 100%;
+     min-width: 25rem;
+     margin-top: 1em;
+     /* padding-right: 4.55em; */
+     position: relative;
+     bottom: 10em;
+     padding-right: 3em;
+}
+
+
+.about-heading{
+
+   /* padding-left: 0.6em; */
+   font-family: 'poppins',sans-serif;
+   font-size: 35px;
+   /* padding: 0.37rem; */
+}
+}
+
